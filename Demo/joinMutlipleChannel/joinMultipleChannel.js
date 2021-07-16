@@ -180,7 +180,7 @@ async function leave() {
   remoteUsers = {};
  
   $("#remote-playerlists").html("");
-  $("#remote-playerlist-2").html("");
+  
   // leave the channel
   await client.leave();
   console.log("client 1 leaves channel success");
